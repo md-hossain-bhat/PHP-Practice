@@ -10,13 +10,17 @@
     <h2>
 <?php
 
+//calclutor
 $x =5;
+$y =2;
 
-for($y=1;$y <=10;$y++)
-{
-    echo $x." * ".$y." = ".$x*$y."<br>";
-}
+$sum = $x + $y;
+$sub = $x - $y;
+$mul = $x * $y;
+$div = $x / $y;
+$mod = $x % $y;
 
+echo "sum is ".$sum." subtraction is ".$sub." mutification is ".$mul." divisition is ".$div." modulas is ".$mod;
 
 
 ?>
